@@ -1,0 +1,19 @@
+Supply & Demand|Supply and demand are the forces that determine prices in a market. Supply refers to how much producers are willing to sell, while demand refers to how much consumers are willing to buy. When demand increases and supply stays limited, prices rise. When supply increases and demand falls, prices decrease.|Example: During a heatwave, demand for air conditioners rises sharply, causing prices to increase if stores have limited stock.
+
+Interest Rates|Interest rates are the cost of borrowing money or the reward for saving money. Central banks raise interest rates to slow inflation and lower them to stimulate spending and investment. High interest rates make loans, mortgages, and credit cards more expensive.|Example: If mortgage rates rise from 3% to 7%, fewer people buy houses because monthly payments become too costly.
+
+Inflation|Inflation is the gradual increase in the prices of goods and services over time, reducing purchasing power. Moderate inflation is normal in growing economies, but high inflation can weaken savings and make daily life more expensive.|Example: A coffee that cost $3 two years ago may cost $5 today because of inflation.
+
+Recession|A recession is a significant decline in economic activity lasting for an extended period, usually marked by falling GDP, rising unemployment, lower consumer spending, and weaker business profits.|Example: During a recession, companies may lay off workers, consumers spend less money, and economic growth slows down.
+
+GDP|Gross Domestic Product (GDP) measures the total value of all goods and services produced within a country over a specific period. GDP is used to evaluate the size and health of an economy. Rising GDP usually signals economic growth, while falling GDP may indicate recession.|Example: GDP is calculated using the formula: Consumption + Investment + Government Spending + Net Exports.
+
+Phishing|Phishing is a cybercrime where scammers impersonate trusted organizations through emails, messages, or fake websites to steal passwords, banking information, or personal data. Phishing attacks often create urgency or fear to manipulate victims.|Example: A fake email pretending to be from a bank asks you to “verify your account immediately” by clicking a malicious link.
+
+Identity Theft|Identity theft occurs when criminals steal personal information such as social security numbers, passwords, or banking details to commit fraud or access financial accounts illegally.|Example: A criminal uses stolen identification documents to open credit cards or take loans in another person’s name.
+
+Investment Fraud|Investment fraud involves deceptive schemes that promise unrealistic profits with little or no risk. Fraudsters often pressure victims into investing quickly and hide important details.|Example: A scammer promises guaranteed 50% monthly returns through a “secret crypto investment strategy.”
+
+Ponzi Schemes|A Ponzi scheme is a fraudulent investment scam where returns paid to earlier investors come from money contributed by new investors instead of legitimate profits. These schemes collapse once new investments stop entering the system.|Example: An investment company pays high returns at first to gain trust, but eventually collapses because no real profits were ever generated.
+
+How to Avoid Fraud|Protecting yourself from fraud requires caution, verification, and strong digital habits. Never share sensitive information through suspicious emails or messages, verify websites carefully, and avoid offers that sound too good to be true.|Example: Instead of clicking a link in a suspicious bank email, manually type your bank’s official website into your browser to log in securely.
