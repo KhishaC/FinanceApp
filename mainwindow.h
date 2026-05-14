@@ -3,7 +3,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "auth.h"
+#include "Auth.h"
 #include "user.h"
 
 QT_BEGIN_NAMESPACE

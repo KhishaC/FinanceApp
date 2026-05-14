@@ -1,0 +1,18 @@
+welcome=Welcome
+financequiz=Finance Quiz
+fraudquiz=Fraud Quiz
+learn=Learn
+logout=Logout
+MainMenu=Main Menu
+LearningTrack=Learning Track
+Login=Login
+Language=Language
+CreateAccount= Create Account
+Finance=Finance
+Fraud=Fraud
+Return=Return
+TestyourKnowledge=Test your Knowledge
+SeeLearningTrack=Learning Track
+
+
+

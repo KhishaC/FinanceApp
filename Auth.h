@@ -2,7 +2,7 @@
 #define AUTH_H
 
 #include <string>
-#include "User.h"
+#include "user.h"
 
 class Auth {
 public:

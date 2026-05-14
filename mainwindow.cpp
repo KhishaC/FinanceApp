@@ -179,8 +179,23 @@ QStringList MainWindow::loadTopic(const QString& title)
 
     QFile file(path);
 
-    if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+    /*if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
         qDebug() << "Cannot open file:" << path;
+        return {};
+    }*/
+
+    try {
+
+        if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+            throw QString("Cannot open topic file");
+        }
+
+    }
+    catch (QString error) {
+
+        qDebug() << error;
+        ui->statusLabel->setText(error);
+
         return {};
     }
 
@@ -193,10 +208,13 @@ QStringList MainWindow::loadTopic(const QString& title)
             return line.split("|");
         }
     }
-
-    qDebug() << tr("Topic not found:") << title;
     return {};
 }
+
+
+
+
+
 
 
 
