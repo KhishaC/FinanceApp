@@ -1,5 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "topics.h"
+
 
 #include <QFile>
 #include <QTextStream>
@@ -211,61 +213,68 @@ QStringList MainWindow::loadTopic(const QString& title)
     return {};
 }
 
-
-
-
-
-
-
+//////FINANCE TOPICS USING INHERITANCE/////
 
 void MainWindow::on_supplydemand_clicked()
 {
-    QString key = "Supply & Demand";
+    FinanceTopic topic(
+        "Supply & Demand",
+        "Offre et Demande"
+        );
 
-    if (currentLang == "fr")
-        key = "Offre et demande";
+    QStringList t =
+        loadTopic(topic.getTitle(currentLang));
 
-    QStringList t = loadTopic(key);
     if (t.size() == 3)
         showTopic(t[0], t[1], t[2]);
 }
 
 void MainWindow::on_interestrates_clicked()
 {
-    QString key = "Interest Rates";
-    if (currentLang == "fr")
-        key = "Taux d’Intérêt";
+    FinanceTopic topic(
+        "Interest Rates",
+        "Taux d’Intérêt"
+        );
 
-    QStringList t = loadTopic(key);
-    if  (t.size() == 3)
+    QStringList t =
+        loadTopic(topic.getTitle(currentLang));
+
+    if (t.size() == 3)
         showTopic(t[0], t[1], t[2]);
 }
 
 void MainWindow::on_inflation_clicked()
 {
     ui->statusLabel->setText("Inflation clicked");
-    QString key = "Inflation";
-    if (currentLang == "fr")
-        key = "Inflation";
 
-    QStringList t = loadTopic(key);
+    FinanceTopic topic(
+        "Inflation",
+        "Inflation"
+        );
+
+    QStringList t =
+        loadTopic(topic.getTitle(currentLang));
+
     if (t.size() == 3)
         showTopic(t[0], t[1], t[2]);
 }
-
 
 void MainWindow::on_recession_clicked()
 {
-    QString key = "Recession";
-    if (currentLang == "fr")
-        key = "Récession";
+    FinanceTopic topic(
+        "Recession",
+        "Récession"
+        );
 
-    QStringList t = loadTopic(key);
+    QStringList t =
+        loadTopic(topic.getTitle(currentLang));
+
     if (t.size() == 3)
         showTopic(t[0], t[1], t[2]);
 }
 
 
+/*
 void MainWindow::on_gdp_clicked()
 {
     QString key = "GDP";
@@ -273,6 +282,20 @@ void MainWindow::on_gdp_clicked()
         key = "Produit Intérieur Brut (PIB)";
 
     QStringList t = loadTopic(key);
+    if (t.size() == 3)
+        showTopic(t[0], t[1], t[2]);
+}*////////////////////////////////////////PREVIOUS VERSION WITHOUT INHERITANCE
+
+void MainWindow::on_gdp_clicked()
+{
+    FinanceTopic gdp(
+        "GDP",
+        "Produit Intérieur Brut (PIB)"
+        );
+
+    QStringList t =
+        loadTopic(gdp.getTitle(currentLang));
+
     if (t.size() == 3)
         showTopic(t[0], t[1], t[2]);
 }
@@ -628,5 +651,4 @@ void MainWindow::setLanguage(const QString& lang)
         ui->statusLabel->setText("Language: English");//Show what language we switch to
     }
 }
-
 
